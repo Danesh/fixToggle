@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-	android:orientation="vertical" android:layout_width="fill_parent"
-	android:gravity="center_vertical"
-	android:layout_height="fill_parent">
+	android:layout_width="fill_parent"
+	android:gravity="center"
+	android:layout_height="fill_parent" android:orientation="vertical">
 	<TextView android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:text="Fix Toggle"
 		android:paddingBottom="30dp"
 		android:gravity="center_horizontal" />
-	<TextView android:gravity="center_horizontal" android:paddingBottom="30dp" android:text="This app fixes the know issue on sgs phones when toggling 2g/3g via statusbar toggle" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
+	<TextView android:paddingBottom="30dp" android:gravity="center" android:text="This app fixes the know issue on sgs phones when toggling 2g/3g via statusbar toggle" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content"></TextView>
 	<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
 		android:orientation="horizontal" android:layout_width="fill_parent"
 		android:layout_height="wrap_content" android:layout_gravity="center_horizontal"
